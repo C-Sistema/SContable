@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cda33f0af10e4a2e9c79c4f29ad620b8" Name="Diagram1">
+        <EntityTypeShape EntityType="dbFrutiFreshModel.ajusxbanc" Width="1.5" PointX="5.25" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.ajusxlote" Width="1.5" PointX="15.5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.banco" Width="1.5" PointX="3" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.bancxviaj" Width="1.5" PointX="3" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.bitacora" Width="1.5" PointX="11" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.boton" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.caja" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.cambio" Width="1.5" PointX="3" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.catexcheq" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.catexcxp" Width="1.5" PointX="7.75" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.cheque" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.cliente" Width="1.5" PointX="8.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.configuracion" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.confxpart" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.cuenxcobr" Width="1.5" PointX="3" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.cuenxpaga" Width="1.5" PointX="10" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.datoxpago" Width="1.5" PointX="10.5" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.descxcheq" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.detaxpago" Width="1.5" PointX="12.25" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.detaxpart" Width="1.5" PointX="11.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.detaxvent" Width="1.5" PointX="18.5" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.dexpaxlo" Width="1.5" PointX="7.5" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.empleado" Width="1.5" PointX="8.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.formapago" Width="1.5" PointX="6" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.gasto" Width="1.5" PointX="5.25" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.gastxviaj" Width="1.5" PointX="6" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.histxbanc" Width="1.5" PointX="5.25" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.histxcajac" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.liquidacion" Width="1.5" PointX="13.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.lote" Width="1.5" PointX="16.25" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.lotexbanc" Width="1.5" PointX="5.25" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.memorando" Width="1.5" PointX="13.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.modulo" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.moneda" Width="1.5" PointX="0.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.nomenclatura" Width="1.5" PointX="9" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.pagoxclie" Width="1.5" PointX="8.25" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.pagoxprov" Width="1.5" PointX="8.25" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.partida" Width="1.5" PointX="6" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.presentacion" Width="1.5" PointX="14" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.producto" Width="1.5" PointX="14" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.proveedor" Width="1.5" PointX="8.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.rol" Width="1.5" PointX="6.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.tamano" Width="1.5" PointX="14" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.usuario" Width="1.5" PointX="16" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.venta" Width="1.5" PointX="11" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.viaje" Width="1.5" PointX="11" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFrutiFreshModel.detaxpaxpr" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="dbFrutiFreshModel.banco_ajusxbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.liquidacion_ajusxlote" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.lote_ajusxlote" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.banco_histxbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.banco_lotexbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.banco_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_banco" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.bancxviaj_gasto" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_bancxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.viaje_bancxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.empleado_bitacora" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.modulo_boton" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.caja_histxcajac" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_a_cambio" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_de_cambio" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.catexcheq_descxcheq" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.catexcxp_cuenxpaga" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.cheque_descxcheq" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.cliente_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.cliente_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.cuenxcobr_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_cuenxcobr" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.venta_cuenxcobr" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.FK_detaxpago_cuenxpaga" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_cuenxpaga" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.proveedor_cuenxpaga" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.viaje_cuenxpaga" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.FK_datoxpago_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.FK_detaxpago_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.FK_dexpaxlo_detaxpago" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.nomenclatura_detaxpart" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.partida_detaxpart" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.lote_detaxvent" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.venta_detaxvent" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.FK_dexpaxlo_lotexbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.empleado_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.empleado_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.rol_empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.formapago_gastxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.formapago_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.formapago_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_gastxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.viaje_gastxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.viaje_liquidacion" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.presentacion_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.producto_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.tamano_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.viaje_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.viaje_memorando" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.moneda_viaje" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.partida_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.proveedor_viaje" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFrutiFreshModel.permiso" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

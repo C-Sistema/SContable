@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" ScriptsSource="&#xD;&#xA;private void Report1_ParametersRequestBeforeShow(object sender, DevExpress.XtraReports.Parameters.ParametersRequestEventArgs e) {&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;" PageWidth="850" PageHeight="1100" Version="19.1" RequestParameters="false" FilterString="[id_ban] = ?parameter1" DataMember="banco" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Parameters>
+    <Item1 Ref="3" Name="parameter1" />
+    <Item2 Ref="4" ValueInfo="2021-01-01" Name="parameter2" />
+    <Item3 Ref="5" ValueInfo="2021-06-30" Name="parameter3" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="6" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="7" ControlType="DetailBand" Name="Detail" HeightF="45.9999847">
+      <Controls>
+        <Item1 Ref="8" ControlType="XRLabel" Name="label4" Multiline="true" Text="label4" TextAlignment="TopRight" SizeF="147.916687,22.9999981" LocationFloat="291.666656, 22.9999866" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="9" Expression="[monto_ban]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="10" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="11" ControlType="XRLabel" Name="label3" Multiline="true" Text="label3" TextAlignment="TopLeft" SizeF="132.291656,22.9999981" LocationFloat="159.375, 22.9999866" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="12" Expression="[nombre_ban]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="13" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="14" ControlType="XRLabel" Name="label2" Multiline="true" Text="label2" TextAlignment="TopRight" SizeF="147.916687,23" LocationFloat="291.666656, 0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="15" Expression="[cuenta_ban]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="16" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="17" ControlType="XRLabel" Name="label1" Multiline="true" Text="label1" TextAlignment="TopLeft" SizeF="132.291656,23" LocationFloat="159.375, 0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="18" Expression="[banco_ban]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="19" UseTextAlignment="false" />
+        </Item4>
+      </Controls>
+    </Item2>
+    <Item3 Ref="20" ControlType="BottomMarginBand" Name="BottomMargin" Font="Verdana, 9.75pt">
+      <StylePriority Ref="21" UseFont="false" />
+    </Item3>
+    <Item4 Ref="22" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="pac_histxbanc_2" DataSource="#Ref-0">
+      <Bands>
+        <Item1 Ref="23" ControlType="DetailBand" Name="Detail1" HeightF="23">
+          <Controls>
+            <Item1 Ref="24" ControlType="XRLabel" Name="label9" Multiline="true" Text="label9" TextAlignment="TopCenter" SizeF="135.416656,23" LocationFloat="137.5, 0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="25" Expression="[Documento]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="26" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="27" ControlType="XRLabel" Name="label8" Multiline="true" Text="label8" TextAlignment="TopCenter" SizeF="150,23" LocationFloat="272.916656, 0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="28" Expression="[Descripción]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="29" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="30" ControlType="XRLabel" Name="label7" Multiline="true" Text="label7" TextAlignment="TopCenter" SizeF="114.583344,23" LocationFloat="422.916656, 0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="31" Expression="[Débito]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="32" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="33" ControlType="XRLabel" Name="label6" Multiline="true" Text="label6" TextAlignment="TopCenter" SizeF="112.5,23" LocationFloat="537.5, 0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="34" Expression="[Crédito]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="35" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="36" ControlType="XRLabel" Name="label5" Multiline="true" Text="label5" TextAlignment="TopCenter" SizeF="137.5,23" LocationFloat="0, 0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="37" Expression="[A_nombre_de]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="38" UseTextAlignment="false" />
+            </Item5>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item4>
+  </Bands>
+  <Scripts Ref="39" OnParametersRequestBeforeShow="Report1_ParametersRequestBeforeShow" />
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.EntityFramework.EFDataSource,DevExpress.DataAccess.v19.1" Name="efDataSource1" ConnectionStringName="DBSistemaContable" ConnectionString="" Source="Base.BD.DBSistemaContable, Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ProceduresSerialized="PFByb2NlZHVyZXM+PFN0b3JlZFByb2NJbmZvIFN0b3JlZFByb2NJbmZvTmFtZT0icGFjX2hpc3R4YmFuY18xIj48UGFyYW1ldGVyIE5hbWU9InBhcmEwIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBJc051bGw9InRydWUiIC8+PFBhcmFtZXRlciBOYW1lPSJwYXJhMSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgSXNOdWxsPSJ0cnVlIiAvPjxQYXJhbWV0ZXIgTmFtZT0icGFyYTIiIFR5cGU9IlN5c3RlbS5TdHJpbmciIElzTnVsbD0idHJ1ZSIgLz48UGFyYW1ldGVyIE5hbWU9InBhcmEzIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBJc051bGw9InRydWUiIC8+PC9TdG9yZWRQcm9jSW5mbz48U3RvcmVkUHJvY0luZm8gU3RvcmVkUHJvY0luZm9OYW1lPSJwYWNfaGlzdHhiYW5jXzIiPjxQYXJhbWV0ZXIgTmFtZT0icGFyYTAiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/cGFyYW1ldGVyMSk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9InBhcmExIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSkoP3BhcmFtZXRlcjIpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJwYXJhMiIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkpKD9wYXJhbWV0ZXIzKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0icGFyYTMiIFR5cGU9IlN5c3RlbS5TdHJpbmciIElzTnVsbD0idHJ1ZSIgLz48L1N0b3JlZFByb2NJbmZvPjwvUHJvY2VkdXJlcz4=" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

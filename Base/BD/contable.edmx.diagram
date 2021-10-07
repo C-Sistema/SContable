@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3cbe46551bb54e59b44dc58fe45dc21a" Name="Diagram1">
+        <EntityTypeShape EntityType="FrutiFresh.ajusxbanc" Width="1.5" PointX="5.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.ajusxlote" Width="1.5" PointX="12.5" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.banco" Width="1.5" PointX="3" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.bitacora" Width="1.5" PointX="8" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.boton" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.caja" Width="1.5" PointX="10.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.Cambio" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.catexcheq" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.cheque" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.cliente" Width="1.5" PointX="5.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.configuracion" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.confxpart" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.cuenxcobr" Width="1.5" PointX="10.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.cuenxpaga" Width="1.5" PointX="10.25" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.descxcheq" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.detaxpart" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.detaxvent" Width="1.5" PointX="13.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.empleado" Width="1.5" PointX="5.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.formapago" Width="1.5" PointX="0.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.gastxviaj" Width="1.5" PointX="3" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.histxbanc" Width="1.5" PointX="5.25" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.histxcajac" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.liquidacion" Width="1.5" PointX="10.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.lote" Width="1.5" PointX="15.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.lotexbanc" Width="1.5" PointX="5.25" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.memorando" Width="1.5" PointX="10.25" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.modulo" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.moneda" Width="1.5" PointX="0.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.nomenclatura" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.pagoxclie" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.pagoxprov" Width="1.5" PointX="8.25" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.partida" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.presentacion" Width="1.5" PointX="13" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.producto" Width="1.5" PointX="13" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.proveedor" Width="1.5" PointX="5.75" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.rol" Width="1.5" PointX="3.5" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.tamano" Width="1.5" PointX="13" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.usuario" Width="1.5" PointX="8" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.venta" Width="1.5" PointX="8" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.viaje" Width="1.5" PointX="8" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrutiFresh.detaxpaxpr" Width="1.5" PointX="12.5" PointY="25.875" IsExpanded="true" />
+        <AssociationConnector Association="FrutiFresh.banco_ajusxbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.liquidacion_ajusxlote" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.lote_ajusxlote" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.banco_histxbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.banco_lotexbanc" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.banco_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.moneda_banco" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.empleado_bitacora" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.modulo_boton" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.caja_histxcajac" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.catexcheq_descxcheq" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.cheque_descxcheq" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.cliente_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.cliente_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.venta_cuenxcobr" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.cuenxpaga_detaxpaxpr" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.viaje_cuenxpaga" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.nomenclatura_detaxpart" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.partida_detaxpart" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.lote_detaxvent" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.venta_detaxvent" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.empleado_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.empleado_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.rol_empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.formapago_gastxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.formapago_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.formapago_pagoxprov" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.moneda_gastxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.viaje_gastxviaj" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.viaje_liquidacion" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.presentacion_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.producto_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.tamano_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.viaje_lote" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.viaje_memorando" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.moneda_pagoxclie" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.moneda_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.moneda_viaje" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.pagoxprov_detaxpaxpr" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.proveedor_viaje" ManuallyRouted="false" />
+        <AssociationConnector Association="FrutiFresh.permiso" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

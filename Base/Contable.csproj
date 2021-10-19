@@ -813,6 +813,12 @@
     <Compile Include="Reportes\MayorReport.Designer.cs">
       <DependentUpon>MayorReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\nuevo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\nuevo.Designer.cs">
+      <DependentUpon>nuevo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes\Report1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -1077,6 +1083,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\MayorReport.resx">
       <DependentUpon>MayorReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\nuevo.resx">
+      <DependentUpon>nuevo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Report1.resx">
       <DependentUpon>Report1.cs</DependentUpon>

@@ -69,7 +69,7 @@ namespace Base
             this.tablePanel2.Controls.Add(this.labelControl2);
             this.tablePanel2.Controls.Add(this.labelControl1);
             this.tablePanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tablePanel2.Location = new System.Drawing.Point(0, 114);
+            this.tablePanel2.Location = new System.Drawing.Point(0, 116);
             this.tablePanel2.Name = "tablePanel2";
             this.tablePanel2.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 31.83F),
@@ -81,13 +81,13 @@ namespace Base
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 48.2F),
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 31.8F),
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 26F)});
-            this.tablePanel2.Size = new System.Drawing.Size(430, 345);
+            this.tablePanel2.Size = new System.Drawing.Size(440, 345);
             this.tablePanel2.TabIndex = 1;
             // 
             // lblInformacion
             // 
             this.tablePanel2.SetColumn(this.lblInformacion, 1);
-            this.lblInformacion.Location = new System.Drawing.Point(17, 38);
+            this.lblInformacion.Location = new System.Drawing.Point(18, 38);
             this.lblInformacion.Name = "lblInformacion";
             this.tablePanel2.SetRow(this.lblInformacion, 1);
             this.lblInformacion.Size = new System.Drawing.Size(63, 13);
@@ -98,7 +98,7 @@ namespace Base
             // lblRecuperarcontra
             // 
             this.tablePanel2.SetColumn(this.lblRecuperarcontra, 1);
-            this.lblRecuperarcontra.Location = new System.Drawing.Point(17, 295);
+            this.lblRecuperarcontra.Location = new System.Drawing.Point(18, 295);
             this.lblRecuperarcontra.Name = "lblRecuperarcontra";
             this.tablePanel2.SetRow(this.lblRecuperarcontra, 7);
             this.lblRecuperarcontra.Size = new System.Drawing.Size(107, 13);
@@ -108,10 +108,10 @@ namespace Base
             // simpleButton1
             // 
             this.tablePanel2.SetColumn(this.simpleButton1, 1);
-            this.simpleButton1.Location = new System.Drawing.Point(17, 236);
+            this.simpleButton1.Location = new System.Drawing.Point(18, 236);
             this.simpleButton1.Name = "simpleButton1";
             this.tablePanel2.SetRow(this.simpleButton1, 6);
-            this.simpleButton1.Size = new System.Drawing.Size(391, 42);
+            this.simpleButton1.Size = new System.Drawing.Size(400, 42);
             this.simpleButton1.TabIndex = 8;
             this.simpleButton1.Text = "Iniciar sesión";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click_1);
@@ -122,23 +122,23 @@ namespace Base
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tablePanel2.SetColumn(this.txtPass, 1);
-            this.txtPass.Location = new System.Drawing.Point(17, 190);
+            this.txtPass.Location = new System.Drawing.Point(18, 190);
             this.txtPass.Name = "txtPass";
             this.txtPass.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtPass.Properties.Appearance.Options.UseFont = true;
             this.txtPass.Properties.PasswordChar = '*';
             this.tablePanel2.SetRow(this.txtPass, 5);
-            this.txtPass.Size = new System.Drawing.Size(391, 26);
+            this.txtPass.Size = new System.Drawing.Size(400, 26);
             this.txtPass.TabIndex = 7;
             this.txtPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPass_KeyPress);
             // 
             // txtUsuario
             // 
             this.tablePanel2.SetColumn(this.txtUsuario, 1);
-            this.txtUsuario.Location = new System.Drawing.Point(17, 105);
+            this.txtUsuario.Location = new System.Drawing.Point(18, 105);
             this.txtUsuario.Name = "txtUsuario";
             this.tablePanel2.SetRow(this.txtUsuario, 3);
-            this.txtUsuario.Size = new System.Drawing.Size(391, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(400, 20);
             this.txtUsuario.TabIndex = 6;
             this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUsuario_KeyPress);
             // 
@@ -151,7 +151,7 @@ namespace Base
             this.labelControl3.LineLocation = DevExpress.XtraEditors.LineLocation.Center;
             this.labelControl3.LineOrientation = DevExpress.XtraEditors.LabelLineOrientation.Horizontal;
             this.labelControl3.LineVisible = true;
-            this.labelControl3.Location = new System.Drawing.Point(17, 3);
+            this.labelControl3.Location = new System.Drawing.Point(18, 3);
             this.labelControl3.Name = "labelControl3";
             this.tablePanel2.SetRow(this.labelControl3, 0);
             this.labelControl3.Size = new System.Drawing.Size(160, 29);
@@ -161,7 +161,7 @@ namespace Base
             // labelControl2
             // 
             this.tablePanel2.SetColumn(this.labelControl2, 1);
-            this.labelControl2.Location = new System.Drawing.Point(17, 153);
+            this.labelControl2.Location = new System.Drawing.Point(18, 153);
             this.labelControl2.Name = "labelControl2";
             this.tablePanel2.SetRow(this.labelControl2, 4);
             this.labelControl2.Size = new System.Drawing.Size(60, 13);
@@ -171,7 +171,7 @@ namespace Base
             // labelControl1
             // 
             this.tablePanel2.SetColumn(this.labelControl1, 1);
-            this.labelControl1.Location = new System.Drawing.Point(17, 65);
+            this.labelControl1.Location = new System.Drawing.Point(18, 65);
             this.labelControl1.Name = "labelControl1";
             this.tablePanel2.SetRow(this.labelControl1, 2);
             this.labelControl1.Size = new System.Drawing.Size(94, 13);
@@ -192,7 +192,7 @@ namespace Base
             this.tablePanel1.Name = "tablePanel1";
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 26F)});
-            this.tablePanel1.Size = new System.Drawing.Size(430, 114);
+            this.tablePanel1.Size = new System.Drawing.Size(440, 116);
             this.tablePanel1.TabIndex = 2;
             // 
             // pictureEdit1
@@ -200,7 +200,7 @@ namespace Base
             this.pictureEdit1.BackgroundImage = global::Base.Properties.Resources.Imagen11;
             this.pictureEdit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tablePanel1.SetColumn(this.pictureEdit1, 0);
-            this.pictureEdit1.Location = new System.Drawing.Point(3, 3);
+            this.pictureEdit1.Location = new System.Drawing.Point(3, 4);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
@@ -208,14 +208,14 @@ namespace Base
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.tablePanel1.SetRow(this.pictureEdit1, 0);
-            this.pictureEdit1.Size = new System.Drawing.Size(424, 108);
+            this.pictureEdit1.Size = new System.Drawing.Size(434, 108);
             this.pictureEdit1.TabIndex = 0;
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 459);
+            this.ClientSize = new System.Drawing.Size(440, 461);
             this.Controls.Add(this.tablePanel1);
             this.Controls.Add(this.tablePanel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

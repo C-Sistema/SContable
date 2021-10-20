@@ -5,16 +5,30 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contable", "Base\Contable.csproj", "{B2B2B81E-C43D-485C-AC13-2984691FE70D}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "FF2.0", "FF2.0\FF2.0.aiproj", "{F92790DD-3E8D-435A-A6C4-4BDD2C43E21A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{D797BA7A-8B7C-469A-9639-D68BBDBC0C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2B2B81E-C43D-485C-AC13-2984691FE70D}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B2B81E-C43D-485C-AC13-2984691FE70D}.All|Any CPU.Build.0 = Release|Any CPU
 		{B2B2B81E-C43D-485C-AC13-2984691FE70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2B2B81E-C43D-485C-AC13-2984691FE70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B2B81E-C43D-485C-AC13-2984691FE70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B2B81E-C43D-485C-AC13-2984691FE70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92790DD-3E8D-435A-A6C4-4BDD2C43E21A}.All|Any CPU.ActiveCfg = DefaultBuild
+		{F92790DD-3E8D-435A-A6C4-4BDD2C43E21A}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{F92790DD-3E8D-435A-A6C4-4BDD2C43E21A}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{F92790DD-3E8D-435A-A6C4-4BDD2C43E21A}.Release|Any CPU.Build.0 = DefaultBuild
+		{D797BA7A-8B7C-469A-9639-D68BBDBC0C4D}.All|Any CPU.ActiveCfg = Debug
+		{D797BA7A-8B7C-469A-9639-D68BBDBC0C4D}.Debug|Any CPU.ActiveCfg = Debug
+		{D797BA7A-8B7C-469A-9639-D68BBDBC0C4D}.Release|Any CPU.ActiveCfg = Debug
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

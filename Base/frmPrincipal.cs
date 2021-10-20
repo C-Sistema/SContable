@@ -270,5 +270,10 @@ namespace Base
             frmAjuste frm = new frmAjuste();
             cargarForm(frm);
         }
+
+        private void ribbonStatusBar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

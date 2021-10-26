@@ -34,6 +34,8 @@
             DevExpress.XtraBars.Ribbon.RibbonPage Usuarios;
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem37 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup21 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem61 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem41 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
@@ -119,9 +121,6 @@
             this.ribbonPageGroup16 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.ribbonPageGroup20 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup21 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem61 = new DevExpress.XtraBars.BarButtonItem();
             ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             Usuarios = new DevExpress.XtraBars.Ribbon.RibbonPage();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
@@ -132,7 +131,6 @@
             // 
             ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
-            this.ribbonPageGroup20,
             this.ribbonPageGroup21});
             ribbonPage1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ribbonPage1.ImageOptions.SvgImage")));
             ribbonPage1.ImageOptions.SvgImageSize = new System.Drawing.Size(20, 20);
@@ -152,6 +150,17 @@
             this.barButtonItem37.Name = "barButtonItem37";
             this.barButtonItem37.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText)));
             this.barButtonItem37.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem37_ItemClick);
+            // 
+            // ribbonPageGroup21
+            // 
+            this.ribbonPageGroup21.Name = "ribbonPageGroup21";
+            this.ribbonPageGroup21.Text = "ribbonPageGroup21";
+            // 
+            // barButtonItem61
+            // 
+            this.barButtonItem61.Caption = "barButtonItem61";
+            this.barButtonItem61.Id = 29;
+            this.barButtonItem61.Name = "barButtonItem61";
             // 
             // Usuarios
             // 
@@ -859,23 +868,6 @@
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // ribbonPageGroup20
-            // 
-            this.ribbonPageGroup20.Name = "ribbonPageGroup20";
-            this.ribbonPageGroup20.Text = "ribbonPageGroup20";
-            // 
-            // ribbonPageGroup21
-            // 
-            this.ribbonPageGroup21.ItemLinks.Add(this.barButtonItem61);
-            this.ribbonPageGroup21.Name = "ribbonPageGroup21";
-            this.ribbonPageGroup21.Text = "ribbonPageGroup21";
-            // 
-            // barButtonItem61
-            // 
-            this.barButtonItem61.Caption = "barButtonItem61";
-            this.barButtonItem61.Id = 29;
-            this.barButtonItem61.Name = "barButtonItem61";
-            // 
             // frmPrincipal
             // 
             this.Appearance.Options.UseFont = true;
@@ -992,7 +984,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem58;
         private DevExpress.XtraBars.BarButtonItem barButtonItem59;
         private DevExpress.XtraBars.BarButtonItem barButtonItem60;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup20;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup21;
         private DevExpress.XtraBars.BarButtonItem barButtonItem61;
     }

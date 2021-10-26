@@ -30,7 +30,7 @@ namespace Base
             SkinManager.EnableFormSkins();
             UserLookAndFeel.Default.SetSkinStyle("Office 2019 Colorful");
 
-            Application.Run(new frmLogin());
+            Application.Run(new frmPrincipal());
         }
     }
 }
